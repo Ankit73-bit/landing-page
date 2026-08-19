@@ -117,10 +117,10 @@ h1 {
     color: rgba(0, 0, 0, 0.562);
 }
 
-.testimonial-container {
+.testimonial-container, .contact-container {
     background-color: #E5E7EB;
     display: flex;
-        justify-content: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -141,4 +141,28 @@ h1 {
 
 .author {
     align-self: self-end;
+}
+
+.contact-container {
+    background: none;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.contact-section {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+
+.contact-btn {
+    padding: 16px;
+    font-size: 24px;
+    border-color: #E5E7EB;
 }
