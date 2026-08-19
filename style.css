@@ -166,3 +166,13 @@ h1 {
     font-size: 24px;
     border-color: #E5E7EB;
 }
+
+.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 36px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
